@@ -1,0 +1,27 @@
+.movieCard {
+    list-style: none;
+    font-size: 1.5rem;
+}
+.movieCard:hover {
+    opacity: 0.8;
+}
+.moviImage {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: azure;
+    /* width:230px;
+    height:345px; */
+}
+.movieTitle {
+    text-align: center;
+}
+
+@media screen and (max-width: 579px) {
+    .moviImage {
+        width: 100%;
+        height: auto;
+    }
+}
